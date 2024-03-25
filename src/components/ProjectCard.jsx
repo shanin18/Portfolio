@@ -32,31 +32,34 @@ const ProjectCard = ({ project }) => {
     const newIndex = currentIndex + direction;
     setCurrentIndex((newIndex + images.length) % images.length);
   };
-
   return (
     <Reveal>
       <div className="border dark:border-[#7562e0] rounded-md w-[295px] md:w-[490px] overflow-hidden">
         <div className="relative h-[180px] md:h-[240px]">
-          {images.map((slide, index) => (
-            <motion.div
-              key={index}
-              className={`overflow-hidden absolute top-0 left-${
-                index === currentIndex ? "0" : "w-full"
-              } w-full h-full`}
-              initial={index === currentIndex ? "center" : "enter"}
-              animate={index === currentIndex ? "center" : "exit"}
-              variants={slideVariants}
-              transition={{ duration: 0.5 }}
-            >
-              <LazyLoad className="h-[180px] md:h-[240px]">
-                <img
-                  src={slide}
-                  alt="project Image"
-                  className="hover:scale-110 duration-300 w-full min-h-full"
-                />
-              </LazyLoad>
-            </motion.div>
-          ))}
+          {images ? (
+            images?.map((slide, index) => (
+              <motion.div
+                key={index}
+                className={`overflow-hidden absolute top-0 left-${
+                  index === currentIndex ? "0" : "w-full"
+                } w-full h-full`}
+                initial={index === currentIndex ? "center" : "enter"}
+                animate={index === currentIndex ? "center" : "exit"}
+                variants={slideVariants}
+                transition={{ duration: 0.5 }}
+              >
+                <LazyLoad className="h-[180px] md:h-[240px]">
+                  <img
+                    src={slide}
+                    alt="project Image"
+                    className="hover:scale-110 duration-300 w-full min-h-full"
+                  />
+                </LazyLoad>
+              </motion.div>
+            ))
+          ) : (
+            <div className="skeleton h-auto w-full"></div>
+          )}
           <button
             className="absolute top-1/2 left-2 transform -translate-y-1/2 focus:outline-none p-1 bg-white  border rounded-full"
             onClick={() => paginate(-1)}

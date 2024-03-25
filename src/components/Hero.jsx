@@ -29,7 +29,7 @@ const Hero = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://drive.google.com/uc?id=1e9FORVHEhuyn0qcbPdQfBUuNF0ARS19y&export=download"
+                href="https://drive.google.com/file/d/1jNmv4UrHoPes1v8w4-sY2btUzlvREyd4/view?usp=sharing"
                 download={true}
               >
                 <button className="font-poppins border border-[#7562e0] bg-[#7562e0] text-white px-5 py-2 rounded-md ease-in-out transition-all duration-200 ">
