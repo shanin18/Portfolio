@@ -9,13 +9,13 @@ const Footer = () => {
             <div className="flex items-center gap-1">
               <BsCodeSlash className="text-3xl text-[#7562e0]"></BsCodeSlash>
               <h2 className="font-poppins text-xl font-bold bg-gradient-to-r bg-clip-text text-transparent from-[#1a1a29] via-[#7562e0] to-[#1a1a29] animate-text">
-                Shamimfolio
+                Shamim
               </h2>
             </div>
           </a>
           <div className="text-gray-500 text-sm">
             <p className="mb-2 text-center font-poppins">
-              &copy; {new Date().getFullYear()} Shamimfolio. All rights
+              &copy; {new Date().getFullYear()} Portfolio@Shamim. All rights
               reserved.
             </p>
             <p className="mb-2 text-center font-poppins">

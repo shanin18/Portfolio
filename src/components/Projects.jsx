@@ -88,7 +88,7 @@ const Projects = () => {
         "https://i.ibb.co/0s17Ydf/img3.webp",
       ],
       summery:
-        "Car Doctor is an innovative platform designed to streamline car maintenance and repair services. It offers users a comprehensive database of trusted mechanics, diagnostic tools, and appointment scheduling features, ensuring hassle-free vehicle care experiences..",
+        "The Car Doctor is an innovative platform designed to streamline car maintenance and repair services. It offers users a comprehensive database of trusted mechanics, diagnostic tools, and appointment scheduling features, ensuring hassle-free vehicle care experiences..",
       liveLink: "https://car-doctor-d7dfc.web.app",
       clientSide: "https://github.com/shanin18/car-doctor-client",
     },
@@ -103,12 +103,11 @@ const Projects = () => {
           </h2>
           <p className=" text-gray-700 mb-8 dark:text-gray-300 mx-2">
             I have worked on many projects of being a Web
-            I have worked on many projects over the course of being a Web
             Developer, <br /> here are a few of my live, real-world projects
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-6 mx-2">
-          {projects.map((project, idx) => (
+          {projects?.map((project, idx) => (
             <ProjectCard key={idx} project={project}></ProjectCard>
           ))}
         </div>

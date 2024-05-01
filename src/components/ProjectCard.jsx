@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FcNext, FcPrevious } from "react-icons/fc";
 import LazyLoad from "react-lazy-load";
+
 const ProjectCard = ({ project }) => {
   const [fold, setFold] = useState(false);
   const { images, title, summery, liveLink, clientSide, serverSide } = project;
