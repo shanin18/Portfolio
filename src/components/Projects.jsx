@@ -54,6 +54,44 @@ const Projects = () => {
       clientSide: "https://github.com/shanin18/Savory-selection-client",
       serverSide: "https://github.com/shanin18/Savory-selection-server",
     },
+    {
+      id: 4,
+      title: "Dua Ruqyah",
+      images: [
+        "https://i.ibb.co/1Md8VyF/dua-ruqyah.webp",
+      ],
+      summery:
+        "Explore a treasure trove of Islamic supplications and healing practices, meticulously organized to cater to various needs. Whether seeking divine guidance, protection, or remedy from ailments.",
+      liveLink: "https://dua-ruqaiya.vercel.app/",
+      clientSide: "https://github.com/shanin18/Dua-Ruqyah-Client",
+      serverSide: "https://github.com/shanin18/Dua-Ruqyah-server",
+    },
+    {
+      id: 5,
+      title: "Ema john",
+      images: [
+        "https://i.ibb.co/2vbZRBR/img1.webp",
+        "https://i.ibb.co/FWTfD6L/img2.webp",
+        "https://i.ibb.co/khkphC6/img3.webp",
+      ],
+      summery:
+        "Ema-John is an e-commerce web application built with React.js. It allows users to browse and purchase a wide range of products.",
+      liveLink: "https://dancing-pasca-6274b9.netlify.app/",
+      clientSide: "https://github.com/shanin18/ema-john-app",
+    },
+    {
+      id: 6,
+      title: "Car Doctor",
+      images: [
+        "https://i.ibb.co/hsn52FR/img1.webp",
+        "https://i.ibb.co/TvrgrxH/img2.webp",
+        "https://i.ibb.co/0s17Ydf/img3.webp",
+      ],
+      summery:
+        "The Car Doctor is an innovative platform designed to streamline car maintenance and repair services. It offers users a comprehensive database of trusted mechanics, diagnostic tools, and appointment scheduling features, ensuring hassle-free vehicle care experiences..",
+      liveLink: "https://car-doctor-d7dfc.web.app",
+      clientSide: "https://github.com/shanin18/car-doctor-client",
+    },
   ];
 
   return (
@@ -64,7 +102,7 @@ const Projects = () => {
             Projects
           </h2>
           <p className=" text-gray-700 mb-8 dark:text-gray-300 mx-2">
-            I have worked on many projects over the course of being a Web
+            I have worked on many projects of being a Web
             Developer, <br /> here are a few of my live, real-world projects
           </p>
         </div>

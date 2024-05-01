@@ -46,15 +46,15 @@ const Hero = () => {
             </div>
           </Reveal>
         </div>
-        <Reveal>
-          <LazyLoad>
+        <LazyLoad>
+          <Reveal>
             <img
               className="w-[300px] md:w-[500px]"
               src={heroImage}
               alt="profile"
             />
-          </LazyLoad>
-        </Reveal>
+          </Reveal>
+        </LazyLoad>
       </div>
     </section>
   );

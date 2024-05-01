@@ -121,11 +121,14 @@ const ProjectCard = ({ project }) => {
                 Client
               </a>
             </button>
-            <button className="font-poppins border border-[#7562e0] px-4 py-1 rounded-md text-[#7562e0] hover:text-white hover:bg-[#7562e0] ease-in-out transition-all duration-200 hover:shadow-neon">
+            {
+              serverSide && <button className="font-poppins border border-[#7562e0] px-4 py-1 rounded-md text-[#7562e0] hover:text-white hover:bg-[#7562e0] ease-in-out transition-all duration-200 hover:shadow-neon">
               <a href={serverSide} target="_blank" rel="noreferrer">
                 Server
               </a>
             </button>
+            }
+            
           </div>
         </div>
       </div>

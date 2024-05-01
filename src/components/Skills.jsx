@@ -11,8 +11,12 @@ import {
   SiFirebase,
   SiNodedotjs,
   SiExpress,
+  SiSqlite,
+  SiRedux,
+  SiNextdotjs,
 } from "react-icons/si";
-import Reveal from "./Reveal";
+import AOS from "aos";
+AOS.init();
 
 const Skills = () => {
   const skills = [
@@ -22,10 +26,13 @@ const Skills = () => {
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "bg-cyan-500" },
     { name: "JavaScript", icon: SiJavascript, color: "bg-yellow-500" },
     { name: "React", icon: SiReact, color: "bg-blue-500" },
-    { name: "Express.js", icon: SiExpress, color: "bg-green-500" },
+    { name: "Next JS", icon: SiNextdotjs, color: "bg-black" },
+    { name: "Redux", icon: SiRedux, color: "bg-purple-600" },
+    { name: "Express.js", icon: SiExpress, color: "bg-black" },
     { name: "Node.js", icon: SiNodedotjs, color: "bg-green-500" },
     { name: "MongoDB", icon: SiMongodb, color: "bg-green-500" },
     { name: "Firebase", icon: SiFirebase, color: "bg-yellow-500" },
+    { name: "SQLite", icon: SiSqlite, color: "bg-sky-700" },
   ];
 
   return (
@@ -43,7 +50,7 @@ const Skills = () => {
           className="flex flex-wrap items-center justify-center gap-6"
         >
           {skills.map((skill, index) => (
-            <Reveal key={index}>
+            <div key={index} data-aos="zoom-in-up">
               <motion.div
                 whileHover={{ scale: 1.05, rotateX: 10, rotateY: 10 }}
                 whileTap={{ scale: 0.95 }}
@@ -54,12 +61,12 @@ const Skills = () => {
                   <div className="text-4xl text-white mr-4">
                     {React.createElement(skill.icon)}
                   </div>
-                  <p className="text-gray-800 font-poppins font-medium">
+                  <p className="text-white font-poppins font-medium">
                     {skill.name}
                   </p>
                 </div>
               </motion.div>
-            </Reveal>
+            </div>
           ))}
         </motion.div>
       </div>

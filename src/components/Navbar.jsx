@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center gap-1">
           <BsCodeSlash className="text-2xl md:text-3xl lg:text-4xl text-[#7562e0]"></BsCodeSlash>
           <h2 className="font-poppins text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r bg-clip-text text-transparent from-[#1a1a29] via-[#7562e0] to-[#1a1a29] animate-text">
-            Shamimfolio
+            Shamim
           </h2>
         </div>
         <div className="flex items-center">

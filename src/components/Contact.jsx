@@ -1,9 +1,11 @@
 import emailjs from "@emailjs/browser";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaDiscord, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { useRef } from "react";
 import Swal from "sweetalert2";
+import Lottie from "lottie-react";
+import lottieAnimation from "../assets/animation.json";
 
 AOS.init();
 const Contact = () => {
@@ -36,13 +38,11 @@ const Contact = () => {
   };
 
   return (
-    <section
-      data-aos="fade-up"
-      data-aos-duration={.7}
-      className=" py-16 dark:bg-[#1a1a29]"
-      id="contact"
-    >
-      <div className="container mx-auto px-4 font-poppins flex flex-col md:flex-row justify-around gap-8">
+    <section className=" py-16 dark:bg-[#1a1a29]" id="contact">
+      <div
+        className="container mx-auto px-4 font-poppins flex flex-col md:flex-row justify-around gap-8"
+        data-aos="zoom-in-up"
+      >
         <div className="">
           <h2 className="text-3xl lg:text-4xl font-bold text-[#7562e0] mb-4 font-poppins">
             Contact Me
@@ -50,9 +50,10 @@ const Contact = () => {
           <p className="dark:text-gray-300 font-poppins mb-4">
             Have a project in mind or just want to say hi?
           </p>
-          <div className="flex gap-5">
+            <Lottie animationData={lottieAnimation} loop={true} className="h-60" />
+          <div className="flex gap-5 mt-4">
             <a
-              href="https://www.linkedin.com/in/syed-shamim-hosan/"
+              href="https://www.linkedin.com/in/shamim-hosan/"
               target="_blank"
               rel="noreferrer"
             >
@@ -64,6 +65,20 @@ const Contact = () => {
               rel="noreferrer"
             >
               <FaGithub className="text-2xl text-[#7562e0] hover:shadow-neon rounded-full"></FaGithub>
+            </a>
+            <a
+              href="https://facebook.com/hosanshamim52"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebook className="text-2xl text-[#7562e0] hover:shadow-neon rounded-full"></FaFacebook>
+            </a>
+            <a
+              href="https://https://discord.com/users/shamim6393"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaDiscord className="text-2xl text-[#7562e0] hover:shadow-neon rounded-full"></FaDiscord>
             </a>
           </div>
         </div>

@@ -8,15 +8,15 @@ const About = () => {
       <div className="container mx-auto px-4 font-poppins">
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           <div className="w-full md:w-1/2 mb-8 md:mb-0 flex justify-center">
-            <Reveal>
-              <LazyLoad>
+            <LazyLoad>
+              <Reveal>
                 <img
                   src={img}
                   alt="Profile"
                   className="rounded-full w-[300px] md:w-[400px] md:mx-0"
                 />
-              </LazyLoad>
-            </Reveal>
+              </Reveal>
+            </LazyLoad>
           </div>
           <div className="w-full md:w-1/2 font-light">
             <div>
@@ -32,7 +32,7 @@ const About = () => {
                 strong passion for web development. Which led me to complete a
                 full stack web development course at
                 <a
-                  href="https://www.programming-hero.com/"
+                  href="https://www.programming-hero.com/" target="_blank" rel="noreferrer"
                   className="text-[#7562e0] ml-2"
                 >
                   programming hero
@@ -44,9 +44,9 @@ const About = () => {
               <p className="text-gray-800 mb-4 dark:text-gray-300">
                 I have a strong foundation in both front-end and back-end
                 technologies. In terms of front-end I have efficiency in
-                essential technologies such as HTML5, CSS3, and Javascript. I
+                essential technologies such as HTML5, CSS3, Tailwind Javascript. I
                 have also hands on experience with popular framework such as
-                ReactJS.
+                ReactJS & NextJS. Also Redux for state management and authentication by Firebase
               </p>
             </Reveal>
             <Reveal>
