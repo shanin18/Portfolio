@@ -18,6 +18,20 @@
     },
     {
         "id": 2,
+        "title": "Lodgify",
+        "images": [
+            "https://i.ibb.co/MPHmQQV/1.webp",
+            "https://i.ibb.co/Cnfw5gM/3.webp",
+            "https://i.ibb.co/wMv8t0m/2.webp",
+            "https://i.ibb.co/cwcvr9m/4.webp",
+            "https://i.ibb.co/fD7MCWX/5.webp"
+        ],
+        "summery": "Lodgify efficiently optimizes booking management and enhances guest experiences for hotels and vacation rentals.",
+        "liveLink": "https://y-lyart-seven.vercel.app/",
+        "clientSide": "https://github.com/shanin18/lodgify-hotel-management"
+    },
+    {
+        "id": 3,
         "title": "Toy Paradise",
         "images": [
             "https://i.ibb.co/Jc5bwZ4/img1.webp",
@@ -33,7 +47,7 @@
         "serverSide": "https://github.com/shanin18/toy-paradise-server"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Savory Selection",
         "images": [
             "https://i.ibb.co/bbSmvw2/img1.webp",
@@ -50,7 +64,7 @@
         "serverSide": "https://github.com/shanin18/Savory-selection-server"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Dua Ruqyah",
         "images": [
             "https://i.ibb.co/1Md8VyF/dua-ruqyah.webp"
@@ -61,7 +75,7 @@
         "serverSide": "https://github.com/shanin18/Dua-Ruqyah-server"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Ema john",
         "images": [
             "https://i.ibb.co/2vbZRBR/img1.webp",
@@ -73,7 +87,7 @@
         "clientSide": "https://github.com/shanin18/ema-john-app"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Car Doctor",
         "images": [
             "https://i.ibb.co/hsn52FR/img1.webp",
