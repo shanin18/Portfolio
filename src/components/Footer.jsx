@@ -19,7 +19,7 @@ const Footer = () => {
               reserved.
             </p>
             <p className="mb-2 text-center font-poppins">
-              A full stack developer passionate about creating amazing web
+              A MERN stack developer passionate about creating amazing web
               experiences.
             </p>
           </div>

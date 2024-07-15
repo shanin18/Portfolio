@@ -21,7 +21,7 @@ const Hero = () => {
           <Reveal>
             <h2 className="text-3xl dark:text-white mb-8">
               And I'm a
-              <span className="ml-2 text-[#7562e0]">Full-stack Developer</span>
+              <span className="ml-2 text-[#7562e0]">MERN-stack Developer</span>
             </h2>
           </Reveal>
 

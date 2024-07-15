@@ -29,8 +29,7 @@ const About = () => {
                 Hi, I'm Syed Shamim Hosan. From Dhaka, Bangladesh. Currently
                 pursuing my bachelors degree in Business Administration at the
                 National University. Alongside my academic studies, I have a
-                strong passion for web development. Which led me to complete a
-                full stack web development course at
+                strong passion for web development. Which led me to complete a web development course at
                 <a
                   href="https://www.programming-hero.com/" target="_blank" rel="noreferrer"
                   className="text-[#7562e0] ml-2"
