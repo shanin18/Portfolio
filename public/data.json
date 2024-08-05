@@ -30,7 +30,7 @@
       "https://i.ibb.co/ns6tq8J/9.webp"
     ],
     "summery": "ShopEase is an innovative and user-friendly eCommerce platform that simplifies shopping for customers and sellers.",
-    "liveLink": "https://shopease-gamma.vercel.app/",
+    "liveLink": "https://shopease-gamma.vercel.app",
     "clientSide": "https://github.com/shanin18/shopease",
     "serverSide": "https://github.com/shanin18/shopease-server"
   },
@@ -65,7 +65,7 @@
   },
   {
     "id": 5,
-    "title": "Ticket Booking App",
+    "title": "Quiz Game",
     "images": [
       "https://i.ibb.co/88DHt5B/Screenshot-2024-08-04-200334.png"
     ],
