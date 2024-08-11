@@ -100,7 +100,7 @@
       "https://i.ibb.co/BGJzvsJ/4.webp"
     ],
     "summery": "Ticket booking platform is an online service that facilitates the purchase and reservation of tickets for various events, activities, or services.",
-    "liveLink": "https://ticket-booking-delta.vercel.app/",
+    "liveLink": "https://ticket-booking-dashboard-rho.vercel.app",
     "clientSide": "https://github.com/shanin18/ticket-booking",
     "serverSide": "https://github.com/shanin18/ticket-booking-server"
   },
