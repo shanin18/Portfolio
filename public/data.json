@@ -57,6 +57,17 @@
     "clientSide": "https://github.com/shanin18/mcq-game"
   },
   {
+    "id": 23,
+    "title": "Simple E-commerce",
+    "images": [
+      "https://i.ibb.co/Snmp0vB/Screenshot-2024-08-15-012503.webp",
+      "https://i.ibb.co/SR67GDz/Screenshot-2024-08-15-012529.webp"
+    ],
+    "summery": "A simple e-commerce product listing page built with React.js, Vite, Tailwind CSS, and Axios. This project demonstrates the ability to fetch, display, filter, search, and sort product data from the FakeStoreAPI.",
+    "liveLink": "https://simple-ecommerce-gamma.vercel.app",
+    "clientSide": "https://github.com/shanin18/simple-ecommerce"
+  },
+  {
     "id": 7,
     "title": "Toy Paradise",
     "images": [
