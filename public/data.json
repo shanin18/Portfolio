@@ -1,20 +1,19 @@
 [
   {
     "id": 1,
-    "title": "Captured visions",
-    "images": [
-      "https://i.ibb.co/rkB8d99/img1.webp",
-      "https://i.ibb.co/vzSLKP1/img2.webp",
-      "https://i.ibb.co/T2p9RBw/img3.webp",
-      "https://i.ibb.co/1Ky0KmL/img4.webp",
-      "https://i.ibb.co/M7hThv0/img5.webp",
-      "https://i.ibb.co/pKZrmHJ/img6.webp",
-      "https://i.ibb.co/0cCyZC9/img7.webp"
-    ],
-    "summery": "Captured Visions is a full-stack photography school website built using MERN technology, with authentication powered by Firebase.",
-    "liveLink": "https://capturedvisions-61b6b.web.app/",
-    "clientSide": "https://github.com/shanin18/Captured-Visions-client",
-    "serverSide": "https://github.com/shanin18/Captured-Visions-server"
+    "title": "Yachtease",
+    "images": [],
+    "summery": "Yachtease is aimed to be a all in one platform for Super yachts, Yacht suppliers & agencies and yacht crew. To make their lives and jobs easier in as many aspects as possible.",
+    "liveLink": "https://yachtease.vercel.app",
+    "technology": "React"
+  },
+  {
+    "id": 1,
+    "title": "My Ops",
+    "images": [],
+    "summery": "My Ops is a Real estate business & expense management system",
+    "liveLink": "https://my-ops-react.vercel.app",
+    "technology": "React"
   },
   {
     "id": 2,
@@ -32,7 +31,26 @@
     "summery": "ShopEase is an innovative and user-friendly eCommerce platform that simplifies shopping for customers and sellers.",
     "liveLink": "https://shopease-gamma.vercel.app",
     "clientSide": "https://github.com/shanin18/shopease",
-    "serverSide": "https://github.com/shanin18/shopease-server"
+    "serverSide": "https://github.com/shanin18/shopease-server",
+    "technology": "React"
+  },
+  {
+    "id": 1,
+    "title": "Captured visions",
+    "images": [
+      "https://i.ibb.co/rkB8d99/img1.webp",
+      "https://i.ibb.co/vzSLKP1/img2.webp",
+      "https://i.ibb.co/T2p9RBw/img3.webp",
+      "https://i.ibb.co/1Ky0KmL/img4.webp",
+      "https://i.ibb.co/M7hThv0/img5.webp",
+      "https://i.ibb.co/pKZrmHJ/img6.webp",
+      "https://i.ibb.co/0cCyZC9/img7.webp"
+    ],
+    "summery": "Captured Visions is a full-stack photography school website built using MERN technology, with authentication powered by Firebase.",
+    "liveLink": "https://capturedvisions-61b6b.web.app/",
+    "clientSide": "https://github.com/shanin18/Captured-Visions-client",
+    "serverSide": "https://github.com/shanin18/Captured-Visions-server",
+    "technology": "React"
   },
   {
     "id": 3,
@@ -46,7 +64,40 @@
     ],
     "summery": "Lodgify efficiently optimizes booking management and enhances guest experiences for hotels and vacation rentals.",
     "liveLink": "https://y-lyart-seven.vercel.app/",
-    "clientSide": "https://github.com/shanin18/lodgify-hotel-management"
+    "clientSide": "https://github.com/shanin18/lodgify-hotel-management",
+    "technology": "Next.js"
+  },
+  {
+    "id": 1,
+    "title": "Shashh",
+    "images": [],
+    "summery": "Shashh is a dynamic platform designed to connect billboard owners with clients seeking to rent advertising spaces or run impactful campaigns. It streamlines the process of showcasing ads, enabling advertisers to easily reach out to billboard owners and optimize their brand visibility.",
+    "liveLink": "https://shashh.netlify.app",
+    "technology": "HTML/CSS"
+  },
+  {
+    "id": 1,
+    "title": "Box Hub",
+    "images": [],
+    "summery": "Box Hub is a convenient platform designed to receive deliveries on behalf of users when they are unavailable. Users can easily schedule a date and time for delivery through Calendly and complete the service with a secure payment, ensuring hassle-free package management.",
+    "liveLink": "https://box-hub.vercel.app/",
+    "technology": "HTML/CSS"
+  },
+  {
+    "id": 1,
+    "title": "Freye",
+    "images": [],
+    "summery": "Freye is an innovative platform offering a wide range of glasses, sunglasses, and lens accessories. Users can try products online, provide their prescription, and receive personalized recommendations for the most suitable options, including frames tailored to their needs.",
+    "liveLink": "https://fahadrazooki.vercel.app/",
+    "technology": "HTML/CSS"
+  },
+  {
+    "id": 1,
+    "title": "Flute N Feather",
+    "images": [],
+    "summery": "Flute keeps children engaged in a fun, interactive experience allowing them to dive deep into subjects until they get it.",
+    "liveLink": "https://flute-n-feather.vercel.app",
+    "technology": "HTML/CSS"
   },
   {
     "id": 5,
@@ -54,7 +105,8 @@
     "images": ["https://i.ibb.co/88DHt5B/Screenshot-2024-08-04-200334.png"],
     "summery": "This is a mcq quiz game made with React",
     "liveLink": "https://mcq-game-nine.vercel.app",
-    "clientSide": "https://github.com/shanin18/mcq-game"
+    "clientSide": "https://github.com/shanin18/mcq-game",
+    "technology": "React"
   },
   {
     "id": 23,
@@ -65,7 +117,8 @@
     ],
     "summery": "A simple e-commerce product listing page built with React.js, Vite, Tailwind CSS, and Axios. This project demonstrates the ability to fetch, display, filter, search, and sort product data from the FakeStoreAPI.",
     "liveLink": "https://simple-ecommerce-gamma.vercel.app",
-    "clientSide": "https://github.com/shanin18/simple-ecommerce"
+    "clientSide": "https://github.com/shanin18/simple-ecommerce",
+    "technology": "React"
   },
   {
     "id": 7,
@@ -81,7 +134,8 @@
     "summery": "This project showcases an interactive website dedicated to action figure toys.",
     "liveLink": "https://toy-paradise-2e411.web.app/",
     "clientSide": "https://github.com/shanin18/toy-paradise-client",
-    "serverSide": "https://github.com/shanin18/toy-paradise-server"
+    "serverSide": "https://github.com/shanin18/toy-paradise-server",
+    "technology": "React"
   },
   {
     "id": 8,
@@ -98,7 +152,8 @@
     "summery": "Savory Selection is dedicated exclusively to the rich culinary heritage of Bangladesh, showcasing a wide array of traditional and contemporary dishes that will tantalize your taste buds.",
     "liveLink": "https://react-savory-selections.web.app/",
     "clientSide": "https://github.com/shanin18/Savory-selection-client",
-    "serverSide": "https://github.com/shanin18/Savory-selection-server"
+    "serverSide": "https://github.com/shanin18/Savory-selection-server",
+    "technology": "React"
   },
   {
     "id": 4,
@@ -113,7 +168,8 @@
     "summery": "Ticket booking platform is an online service that facilitates the purchase and reservation of tickets for various events, activities, or services.",
     "liveLink": "https://ticket-booking-dashboard-rho.vercel.app",
     "clientSide": "https://github.com/shanin18/ticket-booking",
-    "serverSide": "https://github.com/shanin18/ticket-booking-server"
+    "serverSide": "https://github.com/shanin18/ticket-booking-server",
+    "technology": "React"
   },
   {
     "id": 6,
@@ -129,16 +185,8 @@
     "summery": "WorkNest is a cutting-edge platform designed to connect job seekers with employers in a seamless and efficient manner.",
     "liveLink": "https://worknest-rose.vercel.app/",
     "clientSide": "https://github.com/shanin18/Worknest",
-    "serverSide": "https://github.com/shanin18/Worknest-server"
-  },
-  {
-    "id": 9,
-    "title": "Dua Ruqyah",
-    "images": ["https://i.ibb.co/1Md8VyF/dua-ruqyah.webp"],
-    "summery": "Explore a treasure trove of Islamic supplications and healing practices, meticulously organized to cater to various needs. Whether seeking divine guidance, protection, or remedy from ailments.",
-    "liveLink": "https://dua-ruqaiya.vercel.app/",
-    "clientSide": "https://github.com/shanin18/Dua-Ruqyah-Client",
-    "serverSide": "https://github.com/shanin18/Dua-Ruqyah-server"
+    "serverSide": "https://github.com/shanin18/Worknest-server",
+    "technology": "React"
   },
   {
     "id": 10,
@@ -150,7 +198,8 @@
     ],
     "summery": "Ema-John is an e-commerce web application built with React.js. It allows users to browse and purchase a wide range of products.",
     "liveLink": "https://dancing-pasca-6274b9.netlify.app/",
-    "clientSide": "https://github.com/shanin18/ema-john-app"
+    "clientSide": "https://github.com/shanin18/ema-john-app",
+    "technology": "React"
   },
   {
     "id": 11,
@@ -162,6 +211,7 @@
     ],
     "summery": "The Car Doctor is an innovative platform designed to streamline car maintenance and repair services. It offers users a comprehensive database of trusted mechanics, diagnostic tools, and appointment scheduling features, ensuring hassle-free vehicle care experiences..",
     "liveLink": "https://car-doctor-d7dfc.web.app",
-    "clientSide": "https://github.com/shanin18/car-doctor-client"
+    "clientSide": "https://github.com/shanin18/car-doctor-client",
+    "technology": "React"
   }
 ]
